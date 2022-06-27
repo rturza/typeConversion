@@ -14,7 +14,7 @@ namespace typeConversion
             int i = Convert.ToInt32(number);
             Console.WriteLine(i);*/
 
-            try
+            /*try
             {
                 var number = "1234";
                 byte b = Convert.byte(number);
@@ -23,7 +23,13 @@ namespace typeConversion
             catch (Exception)
             {
                 Console.WriteLine("This number couldn't be converted to byte.");
-            }
+            }*/
+
+            var a = 1;
+            var b = 2;
+            var c = 3;
+
+            Console.WriteLine(!(c>b) || (c==a));
         }
     }
 }
